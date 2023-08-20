@@ -62,10 +62,10 @@ public static void salesforcefetch(){
     String accountid;
         ForceApi api = new ForceApi(new ApiConfig()
                 .setForceURL("https://test.salesforce.com/services/oauth2/token")
-                .setUsername("msami19971@gmail.com.tirthdev")
-                .setPassword("Tirthpatel2")
-                .setClientId("3MVG959Nd8JMmavQkzQV5w5FoV07nsXqXQxOq9tuwFWyyAIt4e5HBbCYZ.eavivE29PEVEuBnO.knucmWt1bk")
-                .setClientSecret("5D001DDE640EC92CA2C6B7FC54B2E36256A7F786CFB8B8B46F07E0934BF98DD8"));
+                .setUsername("")
+                .setPassword("")
+                .setClientId("")
+                .setClientSecret(""));
                 
         ApiSession session = api.getSession();
         String accessToken = session.getAccessToken();
